@@ -1,0 +1,30 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "nodejs公共工具包",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t 3000 ./test/redisTest.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumingcode/my-fintech-common.git"
+  },
+  "keywords": [
+    "common",
+    "util"
+  ],
+  "author": "mingdu@foxmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dumingcode/my-fintech-common/issues"
+  },
+  "homepage": "https://github.com/dumingcode/my-fintech-common#readme",
+  "dependencies": {
+    "ioredis": "^4.9.5"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "should": "^13.2.3"
+  }
+}
