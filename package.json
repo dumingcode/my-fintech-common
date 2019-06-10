@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "nodejs公共工具包",
   "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=8.10.0"
+  },
   "scripts": {
     "test": "mocha -t 3000 ./test/redisTest.js --exit"
   },
@@ -24,6 +28,8 @@
     "ioredis": "^4.9.5"
   },
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^9.1.0",
     "mocha": "^6.1.4",
     "should": "^13.2.3"
   }
